@@ -9,7 +9,7 @@ let headingContainer = document.querySelector(".heading");
 
 // we create a funciton to create the number  of boxes......
 
-    inputBox.addEventListener("keyup" ,() =>{
+    inputBox.addEventListener("keyup" ,(event) =>{
 
         // converting the user input into integer format......
         let noOfBoxes = parseInt(inputBox.value);
